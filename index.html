@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwini Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#service">My Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#work">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Ashwini M </strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full-stack Developer</p>
+        <img src="img/ash.JPG" alt="a picture of Ashwini" class="intro__img">
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="service">
+        <h2 class="section__title section__title-services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Well versed in designing and devloping end-end web application.
+                    Proficient in using fronend techonolies like Angular, React, HTML5, CSS and JavaScript, ES6+.
+
+                </p>
+            </div> <!--  / service -->
+
+            <div class="service">
+                <h3>Rest API + API intrgration</h3>
+                <p>Have hands on experience in creating Rest APIs for Android and iOS mobile app development teams.
+                    Preparing detailed APIs documentation for mobile development teams</p>
+            </div> <!--  / service -->
+
+            <div class="service">
+                <h3>Agile + Version control tool</h3>
+                <p>Worked in Agile Development, scrum process with Jira, sprint planning and Trello project management.
+                    Have expertise in using Git, GitHub, Bitbucket and Sourcetree version control tool.
+                </p>
+            </div> <!--  / service -->
+            <div class="service">
+                <h3>Mentor @Hackyourfuture</h3>
+                <p>Helping JavaScript class teacher to review and give feedback on homework</p>
+                <p>Assisting the students in class while doing coding exercises</p>
+                <p>Explaining and helping students to understand the fundamentals of HTML & JavaScript</p>
+                </p>
+            </div> <!--  / service -->
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Full-stack Developer based in Copenhagen</p>
+        <div class="about-me__body">
+            <p>Self motivated developer with 3+ years of experience and proven background in complete software
+                development life cycle.</p>
+            <p>Proﬁcient in creating web applications using C#, SQL Server, Angular, React, HTML5 and JavaScript.</p>
+            <p>Capable of quickly learning and mastering new technologies and working with full-scale agile as part of a
+                cross functional Scrum Front-end and Back-end teams.</p>
+            <p>Awarded Master’s degree in Computer Science from prestigious University VTU, Karnataka in India</p>
+        </div>
+        <img src="img/Ash-full.jpg" alt="Jane leaning against a bus" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+        <div class="portfolio">
+            <!-- portfolio 01-->
+            <video class="portfolio__video" autoplay>
+                <source src="img/pronto-share.mp4" type="video/mp4">
+             </video>
+             <div class="project_details">
+                <h4>File sharing web app</h4>
+                <p>Worked on this website from scratch to develop mainly frontend features</p>
+                <ul>
+                    <li>Angular.js as frontend.</li>
+                    <li>C#.Net as backend for APIs</li>
+                    <li>Database- MS SQL Server</li>
+                    <li>Linux hosting</li>
+                    <li>css framework Bootstrap</li>
+                    <li>Postman for testing backend APIs</li>
+                </ul>
+            </div>
+
+            <!-- portfolio 02-->
+            <video class="portfolio__video" autoplay>
+                <source src="img/gif-search.mp4" type="video/mp4">
+             </video>
+             <div class="project_details section_margin">
+                <h4>Gif Searcher</h4>
+                <ul>
+                    <li>HTML5 & JavaScript as frontend.</li>
+                    <li>css framework Bootstrap</li>
+                    <li>Developers APIs from GIPHY</li>
+                </ul>
+            </div>
+
+
+            <!-- portfolio 03-->
+            <video class="portfolio__video" autoplay>
+                <source src="img/customer-order-app.mp4" type="video/mp4">
+             </video>
+             <div class="project_details section_margin">
+                <h4>Customer - Order display app</h4>
+                <ul>
+                    <li>Built on Angular 8.0</li>
+                    <li>Using concepts as Data services, Routing, Filter, shared modules etc</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:metgudmath.ashwini7@gmail.com" class="footer__link">metgudmath.ashwini7@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"
+                    href="https://www.linkedin.com/in/ashwinimetaguddamath/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Ashwini-Metgudmath">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
+
+</html>
