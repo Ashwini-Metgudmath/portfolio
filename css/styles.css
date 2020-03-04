@@ -3,7 +3,9 @@
 *::after {
     box-sizing: border-box;
 }
-
+ul{
+    list-style: none;
+}
 /* Custom Properties, update these for your own design */
 
 :root {
